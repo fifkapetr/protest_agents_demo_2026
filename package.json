@@ -1,0 +1,22 @@
+{
+  "name": "protest_agents_demo_2026",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fifkapetr/protest_agents_demo_2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fifkapetr/protest_agents_demo_2026/issues"
+  },
+  "homepage": "https://github.com/fifkapetr/protest_agents_demo_2026#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}

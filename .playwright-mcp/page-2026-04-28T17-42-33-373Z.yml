@@ -1,0 +1,139 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - img "Tredgate QA Hub" [ref=e6]
+    - generic [ref=e7]:
+      - link "Dashboard" [ref=e8] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e9]
+        - generic [ref=e14]: Dashboard
+      - link "Projects" [ref=e15] [cursor=pointer]:
+        - /url: /projects
+        - img [ref=e16]
+        - generic [ref=e18]: Projects
+      - link "Defects" [ref=e19] [cursor=pointer]:
+        - /url: /defects
+        - img [ref=e20]
+        - generic [ref=e29]: Defects
+      - link "Test Plans" [ref=e30] [cursor=pointer]:
+        - /url: /test-plans
+        - img [ref=e31]
+        - generic [ref=e34]: Test Plans
+      - link "Team" [ref=e35] [cursor=pointer]:
+        - /url: /team
+        - img [ref=e36]
+        - generic [ref=e41]: Team
+      - link "Reports" [ref=e42] [cursor=pointer]:
+        - /url: /reports
+        - img [ref=e43]
+        - generic [ref=e45]: Reports
+      - link "Settings" [ref=e46] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e47]
+        - generic [ref=e50]: Settings
+    - generic [ref=e51]:
+      - button "Logout" [ref=e52] [cursor=pointer]:
+        - img [ref=e53]
+        - generic [ref=e56]: Logout
+      - button "Collapse" [ref=e57] [cursor=pointer]:
+        - img [ref=e58]
+        - generic [ref=e60]: Collapse
+  - generic [ref=e61]:
+    - generic [ref=e62]:
+      - navigation [ref=e63]:
+        - link "Home" [ref=e64] [cursor=pointer]:
+          - /url: /dashboard
+        - generic [ref=e65]:
+          - img [ref=e66]
+          - generic [ref=e68]: Projects
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - heading "Projects" [level=1] [ref=e73]
+          - link "New Project" [ref=e75] [cursor=pointer]:
+            - /url: /projects/new
+            - img [ref=e76]
+            - text: New Project
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - img [ref=e80]
+              - textbox "Search projects..." [ref=e83]
+            - combobox [ref=e84]:
+              - option "Status" [selected]
+              - option "planning"
+              - option "active"
+              - option "archived"
+          - table [ref=e86]:
+            - rowgroup [ref=e87]:
+              - row "Code Name Status Lead Members Last Updated" [ref=e88]:
+                - columnheader "Code" [ref=e89] [cursor=pointer]:
+                  - generic [ref=e90]: Code
+                - columnheader "Name" [ref=e91] [cursor=pointer]:
+                  - generic [ref=e92]: Name
+                - columnheader "Status" [ref=e93] [cursor=pointer]:
+                  - generic [ref=e94]: Status
+                - columnheader "Lead" [ref=e95]:
+                  - generic [ref=e96]: Lead
+                - columnheader "Members" [ref=e97]:
+                  - generic [ref=e98]: Members
+                - columnheader "Last Updated" [ref=e99] [cursor=pointer]:
+                  - generic [ref=e100]: Last Updated
+            - rowgroup [ref=e101]:
+              - row "PHOENIX Project Phoenix Active LL Lead 3 members 3/20/2025" [ref=e102] [cursor=pointer]:
+                - cell "PHOENIX" [ref=e103]
+                - cell "Project Phoenix" [ref=e104]
+                - cell "Active" [ref=e105]:
+                  - generic [ref=e106]: Active
+                - cell "LL Lead" [ref=e107]:
+                  - generic [ref=e108]:
+                    - generic [ref=e109]: LL
+                    - generic [ref=e110]: Lead
+                - cell "3 members" [ref=e111]
+                - cell "3/20/2025" [ref=e112]
+              - row "ATLAS Project Atlas Active LL Lead 2 members 3/18/2025" [ref=e113] [cursor=pointer]:
+                - cell "ATLAS" [ref=e114]
+                - cell "Project Atlas" [ref=e115]
+                - cell "Active" [ref=e116]:
+                  - generic [ref=e117]: Active
+                - cell "LL Lead" [ref=e118]:
+                  - generic [ref=e119]:
+                    - generic [ref=e120]: LL
+                    - generic [ref=e121]: Lead
+                - cell "2 members" [ref=e122]
+                - cell "3/18/2025" [ref=e123]
+              - row "NEBULA Project Nebula Planning LL Lead 2 members 3/15/2025" [ref=e124] [cursor=pointer]:
+                - cell "NEBULA" [ref=e125]
+                - cell "Project Nebula" [ref=e126]
+                - cell "Planning" [ref=e127]:
+                  - generic [ref=e128]: Planning
+                - cell "LL Lead" [ref=e129]:
+                  - generic [ref=e130]:
+                    - generic [ref=e131]: LL
+                    - generic [ref=e132]: Lead
+                - cell "2 members" [ref=e133]
+                - cell "3/15/2025" [ref=e134]
+              - row "EXPLR001 Exploration Project Planning LL Lead 0 members 4/28/2026" [ref=e135] [cursor=pointer]:
+                - cell "EXPLR001" [ref=e136]
+                - cell "Exploration Project" [ref=e137]
+                - cell "Planning" [ref=e138]:
+                  - generic [ref=e139]: Planning
+                - cell "LL Lead" [ref=e140]:
+                  - generic [ref=e141]:
+                    - generic [ref=e142]: LL
+                    - generic [ref=e143]: Lead
+                - cell "0 members" [ref=e144]
+                - cell "4/28/2026" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Showing 1-4 of 4
+            - generic [ref=e148]:
+              - combobox [ref=e149]:
+                - option "5 per page"
+                - option "10 per page" [selected]
+                - option "25 per page"
+                - option "50 per page"
+              - generic [ref=e150]:
+                - button "Previous" [disabled] [ref=e151]
+                - generic [ref=e152]: Page 1 of 1
+                - button "Next" [disabled] [ref=e153]
+    - contentinfo [ref=e154]:
+      - generic [ref=e155]: Tredgate QA Hub v4.0.0
+      - button "Reset Data" [ref=e156] [cursor=pointer]

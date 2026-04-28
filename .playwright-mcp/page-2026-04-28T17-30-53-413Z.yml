@@ -1,0 +1,23 @@
+- generic [active] [ref=e1]:
+  - img "TEG Project Management" [ref=e3]
+  - generic [ref=e4]:
+    - heading "Login" [level=3] [ref=e5]
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - generic [ref=e9]: 
+        - textbox "Username" [ref=e10]
+      - generic [ref=e12]:
+        - generic [ref=e13]: 
+        - textbox "Password" [ref=e14]
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - checkbox "Remember Me" [ref=e19]
+          - text: Remember Me
+        - button "Login" [ref=e20] [cursor=pointer]
+    - paragraph [ref=e22]:
+      - link "Password forgotten?" [ref=e23] [cursor=pointer]:
+        - /url: https://tredgate.com/pmtool/index.php?module=users/restore_password
+  - generic [ref=e25]:
+    - text: Powered by
+    - link "Rukovoditel" [ref=e26] [cursor=pointer]:
+      - /url: https://www.rukovoditel.net

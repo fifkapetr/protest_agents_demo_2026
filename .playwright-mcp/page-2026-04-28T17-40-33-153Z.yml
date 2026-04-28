@@ -1,0 +1,256 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - img "Tredgate QA Hub" [ref=e6]
+    - generic [ref=e7]:
+      - link "Dashboard" [ref=e8] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e9]
+        - generic [ref=e14]: Dashboard
+      - link "Projects" [ref=e15] [cursor=pointer]:
+        - /url: /projects
+        - img [ref=e16]
+        - generic [ref=e18]: Projects
+      - link "Defects" [ref=e19] [cursor=pointer]:
+        - /url: /defects
+        - img [ref=e20]
+        - generic [ref=e29]: Defects
+      - link "Test Plans" [ref=e30] [cursor=pointer]:
+        - /url: /test-plans
+        - img [ref=e31]
+        - generic [ref=e34]: Test Plans
+      - link "Team" [ref=e35] [cursor=pointer]:
+        - /url: /team
+        - img [ref=e36]
+        - generic [ref=e41]: Team
+      - link "Reports" [ref=e42] [cursor=pointer]:
+        - /url: /reports
+        - img [ref=e43]
+        - generic [ref=e45]: Reports
+      - link "Settings" [ref=e46] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e47]
+        - generic [ref=e50]: Settings
+    - generic [ref=e51]:
+      - button "Logout" [ref=e52] [cursor=pointer]:
+        - img [ref=e53]
+        - generic [ref=e56]: Logout
+      - button "Collapse" [ref=e57] [cursor=pointer]:
+        - img [ref=e58]
+        - generic [ref=e60]: Collapse
+  - generic [ref=e61]:
+    - generic [ref=e62]:
+      - navigation [ref=e63]:
+        - link "Home" [ref=e64] [cursor=pointer]:
+          - /url: /dashboard
+        - generic [ref=e65]:
+          - img [ref=e66]
+          - generic [ref=e68]: Dashboard
+      - generic [ref=e69]:
+        - heading "Dashboard" [level=1] [ref=e73]
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - paragraph [ref=e86]: "14"
+            - paragraph [ref=e87]: Total Defects
+          - generic [ref=e88]:
+            - img [ref=e90]
+            - paragraph [ref=e92]: "12"
+            - paragraph [ref=e93]: Open Defects
+          - generic [ref=e94]:
+            - img [ref=e96]
+            - paragraph [ref=e99]: "3"
+            - paragraph [ref=e100]: Test Plans
+          - generic [ref=e101]:
+            - img [ref=e103]
+            - paragraph [ref=e106]: 56%
+            - paragraph [ref=e107]: Pass Rate
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - heading "My Assigned Defects" [level=2] [ref=e110]
+            - table [ref=e114]:
+              - rowgroup [ref=e115]:
+                - row "Title Project Severity Status Priority" [ref=e116]:
+                  - columnheader "Title" [ref=e117] [cursor=pointer]:
+                    - generic [ref=e118]: Title
+                  - columnheader "Project" [ref=e119]:
+                    - generic [ref=e120]: Project
+                  - columnheader "Severity" [ref=e121]:
+                    - generic [ref=e122]: Severity
+                  - columnheader "Status" [ref=e123]:
+                    - generic [ref=e124]: Status
+                  - columnheader "Priority" [ref=e125]:
+                    - generic [ref=e126]: Priority
+              - rowgroup [ref=e127]:
+                - row "No assigned defects" [ref=e128]:
+                  - cell "No assigned defects" [ref=e129]
+          - generic [ref=e130]:
+            - heading "My Recent Test Runs" [level=2] [ref=e131]
+            - table [ref=e135]:
+              - rowgroup [ref=e136]:
+                - row "Test Plan Status Results Date" [ref=e137]:
+                  - columnheader "Test Plan" [ref=e138]:
+                    - generic [ref=e139]: Test Plan
+                  - columnheader "Status" [ref=e140]:
+                    - generic [ref=e141]: Status
+                  - columnheader "Results" [ref=e142]:
+                    - generic [ref=e143]: Results
+                  - columnheader "Date" [ref=e144]:
+                    - generic [ref=e145]: Date
+              - rowgroup [ref=e146]:
+                - row "No test runs" [ref=e147]:
+                  - cell "No test runs" [ref=e148]
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - heading "Unassigned Defects" [level=2] [ref=e151]
+            - table [ref=e155]:
+              - rowgroup [ref=e156]:
+                - row "Title Project Severity Reporter Created" [ref=e157]:
+                  - columnheader "Title" [ref=e158] [cursor=pointer]:
+                    - generic [ref=e159]: Title
+                  - columnheader "Project" [ref=e160]:
+                    - generic [ref=e161]: Project
+                  - columnheader "Severity" [ref=e162]:
+                    - generic [ref=e163]: Severity
+                  - columnheader "Reporter" [ref=e164]:
+                    - generic [ref=e165]: Reporter
+                  - columnheader "Created" [ref=e166]:
+                    - generic [ref=e167]: Created
+              - rowgroup [ref=e168]:
+                - row "Login button does nothing when password contains emoji Project Phoenix Critical Tom Tester 3/20/2025" [ref=e169] [cursor=pointer]:
+                  - cell "Login button does nothing when password contains emoji" [ref=e170]
+                  - cell "Project Phoenix" [ref=e171]
+                  - cell "Critical" [ref=e172]:
+                    - generic [ref=e173]: Critical
+                  - cell "Tom Tester" [ref=e174]
+                  - cell "3/20/2025" [ref=e175]
+                - row "Map pins cluster into a single point at zoom level 0 Project Atlas Major Tom Tester 3/20/2025" [ref=e176] [cursor=pointer]:
+                  - cell "Map pins cluster into a single point at zoom level 0" [ref=e177]
+                  - cell "Project Atlas" [ref=e178]
+                  - cell "Major" [ref=e179]:
+                    - generic [ref=e180]: Major
+                  - cell "Tom Tester" [ref=e181]
+                  - cell "3/20/2025" [ref=e182]
+                - row "Search autocomplete suggests locations in Narnia Project Atlas Minor Tom Tester 3/20/2025" [ref=e183] [cursor=pointer]:
+                  - cell "Search autocomplete suggests locations in Narnia" [ref=e184]
+                  - cell "Project Atlas" [ref=e185]
+                  - cell "Minor" [ref=e186]:
+                    - generic [ref=e187]: Minor
+                  - cell "Tom Tester" [ref=e188]
+                  - cell "3/20/2025" [ref=e189]
+          - generic [ref=e190]:
+            - heading "Awaiting Verification" [level=2] [ref=e191]
+            - table [ref=e195]:
+              - rowgroup [ref=e196]:
+                - row "Title Project Severity Assigned To" [ref=e197]:
+                  - columnheader "Title" [ref=e198] [cursor=pointer]:
+                    - generic [ref=e199]: Title
+                  - columnheader "Project" [ref=e200]:
+                    - generic [ref=e201]: Project
+                  - columnheader "Severity" [ref=e202]:
+                    - generic [ref=e203]: Severity
+                  - columnheader "Assigned To" [ref=e204]:
+                    - generic [ref=e205]: Assigned To
+              - rowgroup [ref=e206]:
+                - row "Checkout form accepts 'yesterday' as a credit card expiry date Project Phoenix Critical Tom Tester" [ref=e207] [cursor=pointer]:
+                  - cell "Checkout form accepts 'yesterday' as a credit card expiry date" [ref=e208]
+                  - cell "Project Phoenix" [ref=e209]
+                  - cell "Critical" [ref=e210]:
+                    - generic [ref=e211]: Critical
+                  - cell "Tom Tester" [ref=e212]
+                - row "Export to PDF generates a haiku instead of a report Project Atlas Major Tom Tester" [ref=e213] [cursor=pointer]:
+                  - cell "Export to PDF generates a haiku instead of a report" [ref=e214]
+                  - cell "Project Atlas" [ref=e215]
+                  - cell "Major" [ref=e216]:
+                    - generic [ref=e217]: Major
+                  - cell "Tom Tester" [ref=e218]
+        - generic [ref=e219]:
+          - heading "System Overview" [level=2] [ref=e220]
+          - generic [ref=e221]:
+            - generic [ref=e222]:
+              - img [ref=e224]
+              - paragraph [ref=e229]: "3"
+              - paragraph [ref=e230]: Total Users
+            - generic [ref=e231]:
+              - img [ref=e233]
+              - paragraph [ref=e235]: "4"
+              - paragraph [ref=e236]: Total Projects
+            - generic [ref=e237]:
+              - img [ref=e239]
+              - paragraph [ref=e241]: "2"
+              - paragraph [ref=e242]: Active Projects
+        - generic [ref=e243]:
+          - heading "Recent Activity" [level=2] [ref=e244]
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - img [ref=e250]
+              - generic [ref=e252]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Tom Tester
+                  - generic [ref=e255]: 3/20/2025
+                - paragraph [ref=e256]: Defect reported
+            - generic [ref=e257]:
+              - img [ref=e260]
+              - generic [ref=e262]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Tom Tester
+                  - generic [ref=e265]: 3/20/2025
+                - paragraph [ref=e266]: Defect reported
+            - generic [ref=e267]:
+              - img [ref=e270]
+              - generic [ref=e272]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Tom Tester
+                  - generic [ref=e275]: 3/20/2025
+                - paragraph [ref=e276]: Defect reported
+            - generic [ref=e277]:
+              - img [ref=e280]
+              - generic [ref=e282]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Tom Tester
+                  - generic [ref=e285]: 3/20/2025
+                - paragraph [ref=e286]: Adding file type validation
+            - generic [ref=e287]:
+              - img [ref=e290]
+              - generic [ref=e292]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Laura Lead
+                  - generic [ref=e295]: 3/19/2025
+                - paragraph [ref=e296]: Assigned to Tom — urgent
+            - generic [ref=e297]:
+              - img [ref=e300]
+              - generic [ref=e302]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Laura Lead
+                  - generic [ref=e305]: 3/19/2025
+                - paragraph [ref=e306]: Defect reported
+            - generic [ref=e307]:
+              - img [ref=e310]
+              - generic [ref=e312]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Laura Lead
+                  - generic [ref=e315]: 3/19/2025
+                - paragraph [ref=e316]: Assigned to Tom Tester
+            - generic [ref=e317]:
+              - img [ref=e320]
+              - generic [ref=e322]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Laura Lead
+                  - generic [ref=e325]: 3/19/2025
+                - paragraph [ref=e326]: Assigned to Tom Tester
+            - generic [ref=e327]:
+              - img [ref=e330]
+              - generic [ref=e332]:
+                - generic [ref=e333]:
+                  - generic [ref=e334]: Tom Tester
+                  - generic [ref=e335]: 3/19/2025
+                - paragraph [ref=e336]: Text color not updated for dark mode
+            - generic [ref=e337]:
+              - img [ref=e339]
+              - generic [ref=e341]:
+                - generic [ref=e342]:
+                  - generic [ref=e343]: Laura Lead
+                  - generic [ref=e344]: 3/19/2025
+                - paragraph [ref=e345]: Defect reported
+    - contentinfo [ref=e346]:
+      - generic [ref=e347]: Tredgate QA Hub v4.0.0
+      - button "Reset Data" [ref=e348] [cursor=pointer]

@@ -26,6 +26,34 @@ Focus is on:
    npx playwright test --ui
    ```
 
+## Demo Scenarios
+
+This repository contains two concrete agent-driven Playwright scenarios created for the meetup demo. Each scenario left behind the source prompt, generated artifacts, and implementation files so the full workflow can be reviewed afterward.
+
+### 1. Simple Prompt — Test Manager
+
+- Prompt: [prompts/simple_test.md](prompts/simple_test.md)
+- Goal: log in, verify the sidebar, navigate to Team, verify the members table, and log out
+- Plan: [agents-results/plans/test-plan-tredgate-simple-123456.md](agents-results/plans/test-plan-tredgate-simple-123456.md)
+- Spec: [tests/tredgate/login-team-flow.spec.ts](tests/tredgate/login-team-flow.spec.ts)
+- Page objects: [tests/tredgate/pages/login.page.ts](tests/tredgate/pages/login.page.ts), [tests/tredgate/pages/dashboard.page.ts](tests/tredgate/pages/dashboard.page.ts), [tests/tredgate/pages/team.page.ts](tests/tredgate/pages/team.page.ts)
+- Review report: [agents-results/code-review-results.md](agents-results/code-review-results.md)
+
+### 2. Exploration Prompt — Test Manager + Explorer
+
+- Prompt: [prompts/exploration_test.md](prompts/exploration_test.md)
+- Goal: explore the app just enough to implement login + project creation, then create a project and assert the project detail page
+- Exploration report: [agents-results/exploration-tredgate-project-creation-20260428.md](agents-results/exploration-tredgate-project-creation-20260428.md)
+- Plan: [agents-results/plans/test-plan-tredgate-project-creation-20260428.md](agents-results/plans/test-plan-tredgate-project-creation-20260428.md)
+- Spec: [tests/tredgate/project-creation.spec.ts](tests/tredgate/project-creation.spec.ts)
+- Supporting files: [tests/tredgate/pages/projects-list.page.ts](tests/tredgate/pages/projects-list.page.ts), [tests/tredgate/pages/project-create.page.ts](tests/tredgate/pages/project-create.page.ts), [tests/tredgate/pages/project-detail.page.ts](tests/tredgate/pages/project-detail.page.ts), [tests/tredgate/pages/dashboard.page.ts](tests/tredgate/pages/dashboard.page.ts), [tests/i18n/index.ts](tests/i18n/index.ts)
+
+## Reports
+
+- [agents-results/e2e-engineer-results.md](agents-results/e2e-engineer-results.md) collects the implementation summary for both scenarios.
+- [agents-results/code-review-results.md](agents-results/code-review-results.md) contains the review findings for the simple login → team flow.
+- [agents-results/exploration-tredgate-project-creation-20260428.md](agents-results/exploration-tredgate-project-creation-20260428.md) is the live app discovery report used before the project-creation implementation.
+
 ## Agents Overview
 
 The agents are orchestrated by the **Test Manager** in a strict pipeline. The Manager never writes code itself — it delegates and synthesizes results.

@@ -1,0 +1,29 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - img "Tredgate QA Hub" [ref=e6]
+    - heading "Tredgate QA Hub" [level=1] [ref=e7]
+    - paragraph [ref=e8]: Sign in to continue
+  - generic [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]: Username
+      - textbox "Username" [ref=e12]:
+        - /placeholder: Enter username
+    - generic [ref=e13]:
+      - generic [ref=e14]: Password
+      - textbox "Password" [ref=e15]:
+        - /placeholder: Enter password
+    - generic [ref=e16]:
+      - checkbox "Remember me" [ref=e17]
+      - generic [ref=e18]: Remember me
+    - button "Sign In" [ref=e19] [cursor=pointer]
+  - generic [ref=e20]:
+    - paragraph [ref=e21]: Demo credentials
+    - generic [ref=e22]:
+      - generic [ref=e23]: tester
+      - generic [ref=e24]: tester / test123
+    - generic [ref=e25]:
+      - generic [ref=e26]: qa lead
+      - generic [ref=e27]: lead / lead123
+    - generic [ref=e28]:
+      - generic [ref=e29]: admin
+      - generic [ref=e30]: admin / admin123

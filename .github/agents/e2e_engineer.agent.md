@@ -2,7 +2,6 @@
 name: e2e-engineer
 description: "Use when implementing or fixing Playwright E2E tests, page objects, or test data files in this repository. Consumes a written Test Analyst plan or a Triage diagnosis and turns it into code that follows the project conventions. Triggers: implement plan, write tests from plan, fix test from triage, update page object."
 tools: [read, edit, search, todo]
-user-invocable: false
 disable-model-invocation: false
 model: ["Claude Sonnet 4.6 (copilot)"]
 argument-hint: "Path to a Test Analyst plan, or a Triage diagnosis to act on"

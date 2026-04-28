@@ -1,9 +1,9 @@
 ---
 name: Test Manager
-description: "Use when you need end-to-end test planning, orchestrating multiple testing tasks, writing AND reviewing tests, or delegating work across exploration, planning, engineering, triage, and code review. Triggers: test manager, orchestrate tests, plan tests, run all agents, full test pipeline, write and review tests, generate and verify, triage and fix."
+description: "Main agent, orchestrator of this repo.
 tools: [read, search, todo, agent]
 agents: [explorer, test-analyst, e2e-engineer, playwright-triage, code-review]
-model: ["Claude Sonnet 4.5 (copilot)", "Gemini 3.1 Pro (Preview) (copilot)"]
+model: ["Claude Sonnet 4.6 (copilot)", "Gemini 3.1 Pro (Preview) (copilot)"]
 argument-hint: "Describe the testing task to orchestrate (e.g. 'Write login tests for QA Hub and review them')"
 handoffs:
   - label: Plan tests for this brief

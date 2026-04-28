@@ -2,7 +2,6 @@
 name: test-analyst
 description: "Use when you need to turn a testing request into an executable engineering plan before any code is written."
 tools: [read, search, todo, web]
-user-invocable: false
 disable-model-invocation: false
 model: 'Claude Sonnet 4.6 (copilot)', 
 argument-hint: "Describe the testing task to plan (and optionally the path to an Explorer report)"

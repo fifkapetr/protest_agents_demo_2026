@@ -1,6 +1,6 @@
 ---
 name: playwright-triage
-description: "Use when: a Playwright test is failing, flaky, or producing unexpected errors. Diagnoses root cause from error output, page snapshots, traces, and test code. Investigates test failures, analyzes locator mismatches, identifies timing issues, reads playwright-report/ and test-results/, explains what went wrong and why, and recommends a precise targeted fix."
+description: "Use when: a Playwright test is failing."
 tools: [read, search, execute, todo]
 ---
 

@@ -1,10 +1,16 @@
 ---
 name: explorer
 description: "Use when a testing task lacks concrete application details (URL, user flow steps, locators, data inputs). Explores the live application via Playwright MCP and Chrome DevTools MCP, captures semantic locators and observable assertions, and produces a written discovery report. Triggers: explore app, discover flow, capture locators, map UI, no steps provided, missing locators."
-tools: [read, search, todo, playwright-mcp/*, chrome-devtools-mcp/*]
-user-invocable: false
+tools:
+  [
+    read,
+    search,
+    todo,
+    playwright/*,
+    io.github.chromedevtools/chrome-devtools-mcp/*,
+  ]
 disable-model-invocation: false
-model: ["Claude Sonnet 4.5 (copilot)", "GPT-5 (copilot)"]
+model: ["Claude Sonnet 4.6 (copilot)"]
 argument-hint: "Describe the application area to explore (e.g. 'QA Hub login + dashboard navigation')"
 ---
 

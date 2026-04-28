@@ -1,7 +1,7 @@
 ---
 name: code-review
 description: "Use when reviewing Playwright E2E test code quality in this repository. Triggers: code review, review tests, review page objects, check code quality, audit test structure, inspect conventions, enterprise review, quality check."
-tools: [read, search, todo]
+tools: [read, search, todo, edit/createFile, edit/createDirectory]
 disable-model-invocation: false
 model: ["Claude Sonnet 4.6 (copilot)", "Gemini 3.1 Pro (Preview) (copilot)"]
 ---

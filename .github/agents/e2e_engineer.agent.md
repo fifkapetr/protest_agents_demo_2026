@@ -42,8 +42,7 @@ If the plan is incomplete (missing locators, scenarios, file paths, or data sour
 
 ## Restrictions
 
-- DO NOT use Playwright MCP, Chrome DevTools MCP, or otherwise interact with the live application — that is the Explorer's job.
-- DO NOT generate tests from a raw user prompt without a plan or triage diagnosis.
+- DO NOT use Playwright MCP, Chrome DevTools MCP, or otherwise interact with the live application — that is the Explorer's job. Reason: these tools will waste your context.
 - DO NOT expand scope beyond the plan. If something looks missing, escalate.
 - DO NOT use conditions inside test bodies. Helper methods outside the Playwright flow are the only exception (R4.3, R4.4).
 - DO NOT use Hungarian notation or app prefixes in filenames. Filenames are PascalCase, the folder name carries the app context (R1.3, R8.1). For example: `src/pages/qa-hub/LoginPage.ts`, not `qa_hub_login_page.ts`.

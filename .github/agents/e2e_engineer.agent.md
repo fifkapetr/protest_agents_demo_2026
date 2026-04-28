@@ -39,6 +39,7 @@ If the plan is incomplete (missing locators, scenarios, file paths, or data sour
    - All `expect(...)` calls live inside Page Object methods with a descriptive custom message (R2.7, R6.1, R6.3).
 4. **Use only documented data sources.** Stable assertion strings come from `src/test-data/<app>/<app>Text.ts`. Credentials and URLs come from `process.env`. `faker` is used only for generated test data.
 5. **Document your work.** Append a timestamped section to `agents-results/e2e-engineer-results.md` describing what was implemented, which plan you followed, and the final list of changed files. Never overwrite previous entries.
+6. **Credentials**: If you are provided with a Credentials, use them with warning note and in your report mention this. The credentials are not probably in the .env in this scenario.
 
 ## Restrictions
 

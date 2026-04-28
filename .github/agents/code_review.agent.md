@@ -61,13 +61,13 @@ When no specific files are given, scan the full `src/` and `tests/` directories.
 
 ### R4 — Test Data & Environment
 
-| #    | Rule                                                                                                                  | Violation Example                                |
-| ---- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| R4.1 | No hardcoded URLs in tests or page objects                                                                            | `"https://tegb-frontend-..."` directly in source |
-| R4.2 | No hardcoded credentials (`email`, `password`) anywhere in source                                                     | `"user@example.com"` hardcoded in test           |
-| R4.3 | Env vars loaded via `dotenv` — not inline `process.env` without setup                                                 | missing dotenv config in `playwright.config.ts`  |
-| R4.4 | Env var names follow convention: `TEGB_FRONTEND_URL`, `TEGB_API_URL`, `QA_HUB_URL`, `QA_HUB_EMAIL`, `QA_HUB_PASSWORD` | non-standard names                               |
-| R4.5 | Stable assertion texts live in `src/test-data/<app>/<app>Text.ts` as `as const` objects                               | string literals passed directly to assertions    |
+| #    | Rule                                                                                                                  | Violation Example                                                                                                                                                                                                 |
+| ---- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| R4.1 | No hardcoded URLs in tests or page objects                                                                            | `"https://tegb-frontend-..."` directly in source                                                                                                                                                                  |
+| R4.2 | No hardcoded credentials (`email`, `password`) anywhere in source                                                     | `"user@example.com"` hardcoded in test. Exception: if user provided the credentials and dev implement them into the test, this is not a direct violation. Warn user to move them into the .env file in the report |
+| R4.3 | Env vars loaded via `dotenv` — not inline `process.env` without setup                                                 | missing dotenv config in `playwright.config.ts`                                                                                                                                                                   |
+| R4.4 | Env var names follow convention: `TEGB_FRONTEND_URL`, `TEGB_API_URL`, `QA_HUB_URL`, `QA_HUB_EMAIL`, `QA_HUB_PASSWORD` | non-standard names                                                                                                                                                                                                |
+| R4.5 | Stable assertion texts live in `src/test-data/<app>/<app>Text.ts` as `as const` objects                               | string literals passed directly to assertions                                                                                                                                                                     |
 
 ### R5 — Assertion Quality
 

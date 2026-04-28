@@ -20,6 +20,8 @@ You are the Test Manager for this Playwright repository. Your job is to plan tes
 
 You never write or fix test code yourself — you delegate that to specialist agents and synthesize their results.
 
+If user provides credentials, provide them to agents.
+
 ## Pipeline Overview
 
 ```

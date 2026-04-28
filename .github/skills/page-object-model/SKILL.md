@@ -8,15 +8,15 @@ argument-hint: 'Describe the page or component to model (e.g. "registration page
 
 ## Project Conventions at a Glance
 
-| Concern           | Convention                                                             |
-| ----------------- | ---------------------------------------------------------------------- |
-| Source location   | `src/pages/<app>/<name>.page.ts`                                       |
-| Test location     | `tests/<app>/<name>.spec.ts`                                           |
-| i18n strings      | `tests/i18n/index.ts`                                                  |
-| Locator strategy  | `data-testid` attributes first; semantic roles/labels as fallback      |
-| Fluent API        | Every action method returns `this` (or the next page object)           |
-| Assertion methods | Named `expect<State>()`, embedded in the page object, return `this`    |
-| Env vars          | All base URLs and credentials via `process.env.VAR!` — never hard-code |
+| Concern               | Convention                                                             |
+| --------------------- | ---------------------------------------------------------------------- |
+| Page Objects location | `src/pages/<app>/<name>.page.ts`                                       |
+| Test location         | `tests/<app>/<name>.spec.ts`                                           |
+| i18n strings          | `tests/i18n/index.ts`                                                  |
+| Locator strategy      | `data-testid` attributes first; semantic roles/labels as fallback      |
+| Fluent API            | Every action method returns `this` (or the next page object)           |
+| Assertion methods     | Named `expect<State>()`, embedded in the page object, return `this`    |
+| Env vars              | All base URLs and credentials via `process.env.VAR!` — never hard-code |
 
 ---
 

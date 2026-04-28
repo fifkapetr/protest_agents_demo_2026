@@ -1,4 +1,4 @@
-Create a simple test in Playwright.
+Create a test in Playwright.
 
 Tested app: https://tredgate-training-qa-hub-74e558f9052f.herokuapp.com/login
 

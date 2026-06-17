@@ -1,0 +1,109 @@
+- generic [ref=e31]:
+  - navigation [ref=e32]:
+    - img "Tredgate QA Hub" [ref=e34]
+    - generic [ref=e35]:
+      - link "Dashboard" [ref=e36] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e37]
+        - generic [ref=e42]: Dashboard
+      - link "Projects" [ref=e43] [cursor=pointer]:
+        - /url: /projects
+        - img [ref=e44]
+        - generic [ref=e46]: Projects
+      - link "Defects" [ref=e47] [cursor=pointer]:
+        - /url: /defects
+        - img [ref=e48]
+        - generic [ref=e57]: Defects
+      - link "Test Plans" [ref=e58] [cursor=pointer]:
+        - /url: /test-plans
+        - img [ref=e59]
+        - generic [ref=e62]: Test Plans
+      - link "Team" [ref=e63] [cursor=pointer]:
+        - /url: /team
+        - img [ref=e64]
+        - generic [ref=e69]: Team
+      - link "Reports" [ref=e70] [cursor=pointer]:
+        - /url: /reports
+        - img [ref=e71]
+        - generic [ref=e73]: Reports
+      - link "Settings" [ref=e74] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e75]
+        - generic [ref=e78]: Settings
+    - generic [ref=e79]:
+      - button "Logout" [ref=e80] [cursor=pointer]:
+        - img [ref=e81]
+        - generic [ref=e84]: Logout
+      - button "Collapse" [ref=e85] [cursor=pointer]:
+        - img [ref=e86]
+        - generic [ref=e88]: Collapse
+  - generic [ref=e89]:
+    - generic [ref=e90]:
+      - navigation [ref=e91]:
+        - link "Home" [ref=e92] [cursor=pointer]:
+          - /url: /dashboard
+        - generic [ref=e377]:
+          - img [ref=e378]
+          - link "Projects" [ref=e466] [cursor=pointer]:
+            - /url: /projects
+        - generic [ref=e467]:
+          - img [ref=e468]
+          - generic [ref=e470]: New
+      - generic [ref=e471]:
+        - generic [ref=e473]:
+          - link [ref=e474] [cursor=pointer]:
+            - /url: /projects
+            - img [ref=e475]
+          - heading "Create Project" [level=1] [ref=e478]
+        - generic [ref=e479]:
+          - generic [ref=e481]:
+            - generic [ref=e483]:
+              - img [ref=e519]
+              - generic [ref=e485]: Basic Info
+            - generic [ref=e488]:
+              - img [ref=e532]
+              - generic [ref=e490]: Team Assignment
+            - generic [ref=e493]:
+              - img [ref=e553]
+              - generic [ref=e495]: Environments
+            - generic [ref=e498]:
+              - generic [ref=e499]: "4"
+              - generic [ref=e500]: Review
+          - generic [ref=e502]:
+            - generic [ref=e555]:
+              - heading "Project Details" [level=3] [ref=e556]
+              - generic [ref=e557]:
+                - generic [ref=e558]:
+                  - generic [ref=e559]: "Name:"
+                  - generic [ref=e560]: Playwright Test Project
+                - generic [ref=e561]:
+                  - generic [ref=e562]: "Code:"
+                  - generic [ref=e563]: PWTEST01
+                - generic [ref=e564]:
+                  - generic [ref=e565]: "Status:"
+                  - generic [ref=e566]: Planning
+                - generic [ref=e567]:
+                  - generic [ref=e568]: "Description:"
+                  - generic [ref=e569]: A project created by automated exploration testing
+            - generic [ref=e570]:
+              - heading "Team Information" [level=3] [ref=e571]
+              - generic [ref=e572]:
+                - generic [ref=e573]:
+                  - generic [ref=e574]: "QA Lead:"
+                  - generic [ref=e575]: Laura Lead
+                - generic [ref=e576]:
+                  - generic [ref=e577]: "Team Members:"
+                  - generic [ref=e578]: "0"
+            - generic [ref=e579]:
+              - heading "Environments" [level=3] [ref=e580]
+              - generic [ref=e582]:
+                - generic [ref=e583]: Testing (dev)
+                - generic [ref=e584]: https://testing.example.com
+          - generic [ref=e515]:
+            - button "Cancel" [ref=e516] [cursor=pointer]
+            - generic [ref=e517]:
+              - button "Back" [ref=e531] [cursor=pointer]
+              - button "Submit" [active] [ref=e585] [cursor=pointer]
+    - contentinfo [ref=e374]:
+      - generic [ref=e375]: Tredgate QA Hub v4.0.0
+      - button "Reset Data" [ref=e376] [cursor=pointer]
